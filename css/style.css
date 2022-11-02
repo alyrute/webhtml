@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    background-color: azure;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(6, 136, 143);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: condensed;
+    border-radius: 20px;
+}
+header {
+    background-image: url(../img/programacion.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.998);
+    color: rgb(250, 246, 246);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#content {
+    width: 78%;
+    float: right;
+    padding: 0 1%
+   
+}
+#home {
+text-align: center;
+padding-top: 40px;
+color:rgb(4, 30, 69)
+}
+
+
+
+ol.customimg li li {
+    list-style-image: url(../img/heart.png);
+}
+
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   padding: 16px 0;
+   border: solid 2px rgb(255, 255, 255);
+   border-radius: 20px;
+   margin: 2px;
+
+}
+
+.txt-gris{
+    color: rgb(71, 66, 82);
+    
+}
+nav ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 225, 234);
+   
+}
+.txt-center {
+    text-align: center;
+}
+.tag {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.txt-azul {
+    color: blue;
+   
+}
+.caja {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(230, 23, 23);
+    
+}
+
+
+table,td {
+    
+	border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 185, 171)
+
+}
+
+.programacion{
+    background-color: rgb(255, 217, 2);
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+.fol{
+    background-color: rgb(230, 164, 231);
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+.sisi{
+    background-color: rgb(37, 224, 13);
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+.lmsg{
+    background-color: rgb(21, 35, 186);
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+.ingles{
+    background-color: rgb(155, 233, 151);
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+.ende{
+    background-color: rgb(225, 150, 64);
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+.bbdd{
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+.boton{
+
+    border: 1px solid  rgb(0, 255, 255) ; /*anchura, estilo y color borde*/
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: rgb(212, 244, 244); /*color botón*/
+    color: rgb(0, 0, 0); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+   
+}
